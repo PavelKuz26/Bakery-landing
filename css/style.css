@@ -1,0 +1,129 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: #ffe2b0;
+    padding-top: 10px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.menu{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.menu__item{
+    display: inline;
+    margin-right: 100px;
+}
+.menu__item:last-child{
+    margin-right: 0;
+}
+.menu__link{
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+}
+.about{
+    position: relative;
+    height: 640px;
+    background: url(../img/01-Картинка-фона.jpg) center / cover no-repeat;
+    margin-bottom: 20px;
+}
+.about__desc{
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    width: 420px;
+    height: 190px;
+    background: linear-gradient(180deg, rgba(244, 213, 178, .8) 0%, rgba(234, 156, 65, .8) 100%);
+    padding-top: 15px;
+    border-radius: 5px;
+}
+.about__desc__border{
+    margin: 0 auto;
+    width: 390px;
+    height: 160px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    text-align: start;
+    padding: 17px 4px 0 24px;
+}
+.about-title{
+    font-size: 36px;
+    margin-bottom: 9px;
+    font-family: "Philosopher", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.about-text{
+    font-size: 12px;
+}
+.description{
+    margin-bottom: 20px;
+}
+.description-row{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.description-row img{
+    margin-right: 76px;
+}
+.description-row img:last-child{
+    margin-right: 0;
+}
+.description-text{
+    text-align: center;
+}
+.description-title{
+    font-size: 96px;
+    margin-bottom: 20px;
+    font-family: "Philosopher", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.description-title span{
+    color: #f15b40;
+}
+.description-par{
+    margin: 0 auto;
+    font-size: 18px;
+    width: 1000px;
+}
+.map{
+    margin-bottom: 20px;
+}
+.map-title{
+    font-family: "Philosopher", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+iframe{
+    display: block;
+    margin: 0 auto;
+}
+.line{
+    margin: 0 auto;
+    border: 1px solid #666;
+    width: 1024px;
+    margin-bottom: 20px;
+}
